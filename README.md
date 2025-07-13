@@ -1,7 +1,7 @@
 ![photo-breadboard](img/xiao-nrf--mcp3204-photo.jpg)
 
 
-This zephyr example is for 4ch-ADC [MCP3204](https://www.microchip.com/en-us/product/mcp3204).
+This zephyr example is for [MCP3204](https://www.microchip.com/en-us/product/mcp3204)(12bits 4ch-ADC).
 
 For zmk firmware, I'd like to check this example on zephyr 3.5 beforehand.
 
