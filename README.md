@@ -21,7 +21,7 @@ west build -p always -b seeeduino_xiao_ble -- -DDTC_OVERLAY_FILE=foo.overlay
 ```
 
 ## flash
-Double click the reset button on XIAO-BLE to put it in to the boot-mode.
+Double click the reset button on XIAO-BLE to put it into the boot-mode.
 and then:
 
 ```
