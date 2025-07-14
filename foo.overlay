@@ -20,8 +20,6 @@
     };
 };
 
-
-
 &spi0 {
     compatible = "nordic,nrf-spim";
     status = "okay";
@@ -36,7 +34,8 @@
         spi-max-frequency = <400000>;  // ok
      // spi-max-frequency = <100000>;  // NG
         #io-channel-cells = <1>;
-        duplex = <0>;		// 0: full duplex, 2048: half duplex
+     // duplex = <0>;       // 0: full duplex (default), 2048: half duplex
+                            // `2048` doesn't seem to work as expected
     };
 
 };
