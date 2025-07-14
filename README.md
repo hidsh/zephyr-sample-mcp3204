@@ -41,3 +41,7 @@ CH0: 2144
 
 ## links
 - [Zephyr Official Document/MCP3204](https://docs.zephyrproject.org/latest/build/dts/api/bindings/adc/microchip%2Cmcp3204.html)
+- Device Driver:
+  - [`zephyr/drivers/adc/adc_mcp320x.c`](https://github.com/zephyrproject-rtos/zephyr/blob/main/drivers/adc/adc_mcp320x.c)
+  - [`zephyr/drivers/adc/Kconfig.mcp320x`](https://github.com/zephyrproject-rtos/zephyr/blob/main/drivers/adc/Kconfig.mcp320x)
+
